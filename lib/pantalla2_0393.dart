@@ -9,25 +9,22 @@ class Pantalla2_0393 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pantalla 2 Moreno0393"),
-        backgroundColor: Colors.red,
+        backgroundColor: Color(0xff460be8),
       ),
       body: Center(
         child: Container(
-          color: Color(0xff9f3308),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xffff9a3b),
-            elevation: 10,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                "Inovatech Irvin Moreno",
-                style: TextStyle(fontSize: 30),
-              ),
+          color: Color(0xff6e3cf6),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 250,
+            maxHeight: 300,
+            maxWidth: 350,
+          ),
+          child: Text(
+            'Irvin Moreno 0393',
+            style: TextStyle(
+              fontSize: 30,
+              color: Colors.white,
             ),
           ),
         ),

@@ -9,18 +9,19 @@ class Pantalla1_0393 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Card p1 Moreno0393"),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xffb70101),
       ),
       body: Center(
-        child: Card(
-          elevation: 10,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          color: Color(0xff083d9f),
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Text("Card Moreno",
-                style: TextStyle(fontSize: 30, color: Colors.white)),
+        child: Container(
+          color: Color(0xffaf4f4c),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Irvin Moreno 0393',
+            style: TextStyle(fontSize: 40, color: Colors.white),
           ),
         ),
       ),
